@@ -7,32 +7,28 @@
   <style>
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      line-height: 1.6;
       background-color: #f5f5f7;
+      color: #1c1c1e;
+      line-height: 1.6;
       margin: 0;
-      padding: 24px;
-      color: #333;
+      padding: 20px;
     }
     .container {
       max-width: 800px;
-      margin: 0 auto;
+      margin: auto;
       background: #ffffff;
       padding: 40px;
-      border-radius: 14px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
     }
     h1 {
-      color: #5E60CE;
-      border-bottom: 3px solid #5E60CE;
+      color: #5e5ce6;
+      border-bottom: 3px solid #5e5ce6;
       padding-bottom: 10px;
-      margin-bottom: 10px;
     }
     h2 {
-      color: #4EA8DE;
       margin-top: 32px;
-    }
-    p {
-      margin: 12px 0;
+      color: #3a3a3c;
     }
     ul {
       padding-left: 20px;
@@ -40,34 +36,20 @@
     li {
       margin: 8px 0;
     }
-    .last-updated {
-      color: #666;
+    .updated {
+      color: #6e6e73;
       font-style: italic;
-      margin-bottom: 30px;
-    }
-    .highlight {
-      background: #f0f7ff;
-      border-left: 4px solid #5E60CE;
-      padding: 20px;
-      border-radius: 6px;
-      margin: 24px 0;
+      margin-bottom: 24px;
     }
     .contact {
-      background: #fff9e6;
-      border-left: 4px solid #FFD200;
+      background: #f2f2f7;
       padding: 20px;
-      border-radius: 6px;
-      margin-top: 32px;
+      border-radius: 8px;
+      margin-top: 24px;
     }
     a {
-      color: #5E60CE;
+      color: #5e5ce6;
       text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    strong {
-      color: #5E60CE;
     }
   </style>
 </head>
@@ -75,7 +57,7 @@
 <body>
   <div class="container">
     <h1>Privacy Policy for GymTrackerApp</h1>
-    <p class="last-updated"><strong>Last updated:</strong> July 2025</p>
+    <p class="updated"><strong>Last updated:</strong> July 2025</p>
 
     <p>
       GymTrackerApp (“the App”) respects your privacy. This Privacy Policy explains how your information is collected,
@@ -83,7 +65,7 @@
     </p>
 
     <h2>1. Information We Collect</h2>
-    <p>GymTrackerApp may collect information that you voluntarily provide, including:</p>
+    <p>The App may collect information that you voluntarily provide, including:</p>
     <ul>
       <li>Fitness-related preferences and goals</li>
       <li>Workout configuration and exercise completion status</li>
@@ -96,38 +78,34 @@
       <li>Generate personalized workout plans</li>
       <li>Track exercise completion during workouts</li>
       <li>Display progress indicators within the App</li>
-      <li>Support optional workout and hydration reminders</li>
+      <li>Support optional reminders if you enable notifications</li>
     </ul>
 
     <h2>3. Data Storage</h2>
     <p>
       Your data is stored locally on your device using Apple technologies such as
       <strong>UserDefaults</strong> and <strong>SwiftData</strong>.
-      GymTrackerApp does not store personal data on external servers or cloud databases during normal app use.
+      GymTrackerApp does not store personal data on external servers or cloud databases as part of normal app use.
     </p>
 
     <h2>4. Backend Processing (Workout Plan Generation)</h2>
     <p>
-      During initial workout plan generation, limited profile or preference information may be temporarily
-      transmitted to a secure backend service solely to generate your personalized plan.
-    </p>
-    <p>
-      This data is processed only for that purpose and is not stored on the server after processing is complete.
+      During the initial workout plan generation process, certain profile or preference information may be temporarily
+      transmitted to a secure backend service to generate your personalized workout plan.
+      This data is processed only for this purpose and is not stored on the server after processing is complete.
     </p>
 
     <h2>5. Data Sharing</h2>
     <p>
-      GymTrackerApp does <strong>not</strong> sell, rent, or share your personal data with third parties.
+      GymTrackerApp does not sell, rent, or share your personal data with third parties.
     </p>
 
-    <h2>6. User Control & Account Deletion</h2>
+    <h2>6. User Control and Account Deletion</h2>
     <p>
-      You may delete your account at any time from within the App by using the
-      <strong>"Delete Account"</strong> option available in the Profile section.
-    </p>
-    <p>
-      When confirmed, this action permanently deletes all locally stored data associated with your account,
-      including profile information, workouts, records, and reminders, and resets the App to its initial state.
+      You may delete your account at any time from within the App using the
+      <strong>“Delete Account”</strong> option available in the Profile section.
+      When confirmed, this action permanently deletes all locally stored data associated with your account and
+      resets the App to its initial state.
     </p>
     <p>
       You may also remove all locally stored data by uninstalling the App from your device.
@@ -139,29 +117,22 @@
       Notifications are scheduled and delivered entirely on your device and do not require server communication.
     </p>
     <ul>
-      <li>
-        <strong>Workout Reminders:</strong> Daily reminders to encourage completing your planned workout.
-        Messages may reference the general workout focus for the day.
-      </li>
-      <li>
-        <strong>Hydration Reminders:</strong> Daily reminders encouraging healthy hydration habits.
-      </li>
+      <li><strong>Workout Reminders:</strong> Encourage daily workout completion</li>
+      <li><strong>Hydration Reminders:</strong> Encourage regular hydration</li>
     </ul>
 
-    <div class="highlight">
-      <strong>Notification Control:</strong>
-      <ul>
-        <li>Notification permission is optional and requested during onboarding</li>
-        <li>You can enable or disable notifications at any time in device settings</li>
-        <li>The App functions normally even if notifications are disabled</li>
-        <li>No personal data is sent to external servers to deliver notifications</li>
-      </ul>
-    </div>
+    <p><strong>Notification Control:</strong></p>
+    <ul>
+      <li>Notification permission is optional and requested during onboarding</li>
+      <li>You can enable or disable notifications at any time via device settings</li>
+      <li>The App functions normally even if notifications are disabled</li>
+      <li>No personal data is transmitted externally to deliver notifications</li>
+    </ul>
 
     <h2>8. Children’s Privacy</h2>
     <p>
-      GymTrackerApp is not intended for children under the age of 13.
-      We do not knowingly collect personal information from children.
+      GymTrackerApp is not intended for children under the age of 13, and we do not knowingly collect personal
+      information from children.
     </p>
 
     <h2>9. Changes to This Policy</h2>
@@ -171,7 +142,6 @@
 
     <div class="contact">
       <h2>10. Contact</h2>
-      <p>If you have any questions about this Privacy Policy, you may contact:</p>
       <p>
         <strong>Subodh Kathayat</strong><br />
         Email: <a href="mailto:kathayatsubodh@gmail.com">kathayatsubodh@gmail.com</a>
@@ -180,9 +150,9 @@
 
     <h2>11. International Users</h2>
     <p>
-      If you use the App from outside the United States, limited information may be temporarily transmitted to
-      and processed in the United States (US Central region) solely for workout plan generation during setup.
-      No data is retained on the server after processing.
+      If you are using the App from outside the United States, please be aware that your information may be temporarily
+      transmitted to and processed in the United States (US Central region) solely to generate your personalized workout
+      plan during initial setup. Your data is not stored on the server after processing.
     </p>
   </div>
 </body>
